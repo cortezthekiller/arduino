@@ -2,7 +2,7 @@
 
 Servo myServo;
 int flexSensorPin = 0; //analog pin 0
-int flexSensorReading // Value read from analog pin A0
+int flexSensorReading; // Value read from analog pin A0
 
 void setup() {
   Serial.begin(9600);
